@@ -195,7 +195,7 @@
   position: relative;
 }
 .severe,
-.moderate {
+.moderate, .mild {
   padding: 3px 5px;
   border-radius: 3px;
   font-size: 0.8em;
@@ -211,6 +211,10 @@
 .moderate {
   background-color: orange;
   color: white;
+}
+.mild{
+  color: white;
+  background-color: #CDB232;
 }
 .brief-details {
   font-size: 0.9em;
@@ -231,6 +235,7 @@
   padding: 10px; /* Add padding */
   margin-bottom: 20px; /* Add space below the sub-box */
   position: relative;
+  border: 1px solid #ccc;
 }
 .view-more {
   display: flex;
@@ -304,4 +309,8 @@
   top: 10px;
   right: 10px;
   cursor: pointer;
+}
+
+#content2{
+  width: 50%;
 }
