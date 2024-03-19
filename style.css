@@ -308,6 +308,8 @@ html{
   border-radius: 5px;
 }
 
+
+
 .closePopup {
   position: absolute;
   top: 10px;
@@ -316,6 +318,16 @@ html{
   cursor: pointer;
 }
 
-#content1, #content2, #content3{
+
+#content1, #content2, #content3, #content5{
   width: 50%;
+}
+
+.popupContent .days{
+  font-size: 25px;  
+}
+
+.popupContent .day div{
+  height: 70px;
+  width: 70px;
 }
