@@ -24,7 +24,7 @@ html{
   align-items: center;
 }
 .logo {
-  font-size: 15px;
+  font-size: 30px;
   font-weight: bold;
 }
 .nav-content {
@@ -316,6 +316,6 @@ html{
   cursor: pointer;
 }
 
-#content2{
+#content2, #content3{
   width: 50%;
 }
